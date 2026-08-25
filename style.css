@@ -6,3 +6,7 @@ body {
 
 .subtitle { color: rgb(22, 22, 167);}
 #page-title {font-size: 48px; color:rgb(140, 0, 255);}
+#my-name {
+    color: rgb(135, 2, 2);
+    font-size: 100px;
+}
