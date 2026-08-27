@@ -15,3 +15,10 @@ width: 300px;
     color: rgb(135, 2, 2);
     font-size: 100px;
 }
+.favorites-list {
+    margin-bottom: 40px;
+}
+
+#mytable {
+margin-bottom: 40px;
+}
