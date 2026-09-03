@@ -14,11 +14,20 @@
  
     var snake = { x: 5, y: 5 };
  
-    ctx.fillStyle = "#91ad8f";
-    ctx.fillRect(0, 0, 400, 400);
+function drawBoard() {
+  ctx.fillStyle = "#91ad8f";
+  ctx.fillRect(0, 0, 400, 400);
  
-    ctx.fillStyle = "black";
-    ctx.fillRect(snake.x * CELL, snake.y * CELL, CELL, CELL);
+  ctx.fillStyle = "black";
+  ctx.fillRect(snake.x, snake.y, 20, 20);
+}
+setInterval(step, 100);
+    function step() {
+  snake.x = snake.x + 20;
+  drawBoard();
+    }
+
+  drawBoard();
   </script>
 
 </body>
