@@ -24,8 +24,14 @@ function drawBoard() {
 setInterval(step, 100);
     function step() {
   snake.x = snake.x + 20;
+ 
+  if (snake.x > 380) {
+    snake.x = 0;
+  }
+ 
   drawBoard();
-    }
+}
+
 
   drawBoard();
   </script>
